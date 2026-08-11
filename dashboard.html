@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Dashboard</h1>
+
+<h3>Welcome, {{ user }}</h3>
+
+<p>Your account is authenticated successfully.</p>
+
+<div class="card">
+    <h3>Security Features</h3>
+
+    <ul>
+        <li>✔ SHA-256 Password Hashing</li>
+        <li>✔ Session Authentication</li>
+        <li>✔ Protected Routes</li>
+        <li>✔ Secure Login System</li>
+    </ul>
+</div>
+
+{% endblock %}
